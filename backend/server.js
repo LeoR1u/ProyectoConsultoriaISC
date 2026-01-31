@@ -12,8 +12,16 @@ connectDB();
 const app = express();
 
 // Middleware
-app.use(cors());
-app.use(express.json());
+const corsOptions = {
+  origin: [
+    'http://localhost:3000',
+    'http://localhost:5173',
+    'https://consultoriatecs1102.netlify.app/'
+  ],
+  credentials: true
+};
+
+app.use(cors(corsOptions));app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Rutas
