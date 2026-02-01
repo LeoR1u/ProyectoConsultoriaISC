@@ -38,6 +38,8 @@ function Register({ setUser }) {
       const { confirmPassword, ...dataToSend } = formData
       const response = await axios.post(`${API_URL}/auth/register`, dataToSend)
       
+      console.log('API_URL:', API_URL)
+      
       // Guardar token y usuario
       localStorage.setItem('token', response.data.token)
       localStorage.setItem('user', JSON.stringify(response.data.user))
@@ -139,7 +141,6 @@ function Register({ setUser }) {
     </div>
   )
 }
-console.log('API_URL:', API_URL)
 
 
 export default Register
