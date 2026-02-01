@@ -119,25 +119,21 @@ function Home({ user }) {
 
       <div className="features">
         <div className="feature-card">
-          <div className="feature-icon">💻</div>
           <h3>Desarrollo de Software</h3>
           <p>Aplicaciones web y móviles a medida</p>
         </div>
         
         <div className="feature-card">
-          <div className="feature-icon">☁️</div>
           <h3>Infraestructura Cloud</h3>
           <p>Migración y gestión en la nube</p>
         </div>
         
         <div className="feature-card">
-          <div className="feature-icon">🔒</div>
           <h3>Ciberseguridad</h3>
           <p>Protección y auditorías de seguridad</p>
         </div>
         
         <div className="feature-card">
-          <div className="feature-icon">📊</div>
           <h3>Consultoría IT</h3>
           <p>Asesoría técnica especializada</p>
         </div>
