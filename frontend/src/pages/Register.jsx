@@ -139,5 +139,7 @@ function Register({ setUser }) {
     </div>
   )
 }
+console.log('API_URL:', API_URL)
+
 
 export default Register
