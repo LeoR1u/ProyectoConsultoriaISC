@@ -43,7 +43,7 @@ function App() {
         <nav className="navbar">
           <div className="nav-container">
             <Link to="/" className="nav-logo">
-              🚀 Tech Consultoría
+              Tech Consultoría
             </Link>
             
             <div className="nav-menu">
